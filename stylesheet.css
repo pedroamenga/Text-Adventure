@@ -1,4 +1,4 @@
-*, *.before, *.after{
+*, *::before, *::after {
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -40,5 +40,5 @@ body{
     outline: none;
 }
 .btn:hover{
-    border-color: black;
+    background-color: darkblue;
 }
